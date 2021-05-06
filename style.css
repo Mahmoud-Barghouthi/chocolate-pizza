@@ -11,16 +11,13 @@ header {
 #social {
     float: right;
     top: 0%;
-    width: 40%;
-}
-.div1 {
-    border: #000 1px solid;
-    width: 50%;
+    margin-top: -30px;
 }
 
 
 .div2 { 
     margin: 0%;
+    font-family: 'Pacifico', cursive;
 }
 
 .div2:last-child{
@@ -28,7 +25,21 @@ header {
     font-size: 10px;
 }
 
+.mail {
+    margin-left: 10px;
+}
 
+#print {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -45px;
+
+}
+
+.backg {
+    width: 70%;
+    clear: both;
+}
 
 .anything { 
     text-decoration: line-through;
@@ -46,6 +57,43 @@ hr {
 }
 
 
-/* ---------------------- */
 
 
+/* Below the hr */
+#image {
+    float: left;
+    margin-right: 8px;
+}
+
+.p3 { 
+    margin: 0%;
+}
+
+.p3:last-child{
+    font-family: 'Itim', cursive;
+    font-size: 10px;
+}
+button {
+    float: right;
+    margin-right: 100px;
+    margin-top: -50px;
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    height: 60px;
+    width: 200px;
+    border-style: solid;
+
+}
+
+/* footer  */
+
+
+footer {
+    text-align: center;
+    color: rgba(128, 128, 128, 0.37);
+}
+
+.line {
+    height: 1px;
+}
