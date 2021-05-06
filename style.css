@@ -1,0 +1,51 @@
+header {
+    position: relative;
+}
+
+
+#logo {
+    float: left;
+    margin-right: 8px;
+    background: #000;
+}
+#social {
+    float: right;
+    top: 0%;
+    width: 40%;
+}
+.div1 {
+    border: #000 1px solid;
+    width: 50%;
+}
+
+
+.div2 { 
+    margin: 0%;
+}
+
+.div2:last-child{
+    font-family: 'Itim', cursive;
+    font-size: 10px;
+}
+
+
+
+.anything { 
+    text-decoration: line-through;
+}
+
+fieldset {
+    background-image: url('picture/list-bg.png');
+    width: auto;
+    height: 160px;
+}
+
+hr {
+    background-image: url('picture/hr-img.png');
+    height: 15px;
+}
+
+
+/* ---------------------- */
+
+
