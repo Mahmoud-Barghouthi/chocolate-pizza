@@ -10,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <title>MY AWESOME CHOCOLATE</title>
 </head>
 
@@ -22,12 +27,23 @@
                 <p class="div2">THE BEST FOOD BLOG ON THE WEB </p>
             </div>
         </div>
+        <!-- <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/MB4777">facebook</a></li>
+            </ul>
+        </nav> -->
         <!-- <p id="thebest">THE BEST FOOD BLOG ON THE WEB </p> -->
         <div id="social">
-            <img src="picture/fb-icon.png" alt="facebook">
-            <img src="picture/twit-icon.png" alt="Twitter">
+            <a href="https://www.facebook.com/MB4777">
+                <img src="picture/fb-icon.png" alt="facebook"> </a>
+
+            <a href="https://twitter.com/MahmoudBar47">
+                <img src="picture/twit-icon.png" alt="Twitter"> </a>
+
             <img src="picture/gp-icon.png" alt="gmail">
-            <img src="picture/insta-icon.png" alt="Insta">
+            <a href="https://www.instagram.com/mahmoud79l/">
+                <img src="picture/insta-icon.png" alt="Insta"></a>
+
             <img src="picture/flic-icon.png" alt="flic">
             <img src="picture/pint-icon.png" alt="Pint">
             <img src="picture/rss-icon.png" alt="wifi">
@@ -41,30 +57,32 @@
 
     <hr>
     <main>
-        <p>Chocolate Pizza </p>
-        <p>POSTED ON 15 DEC 2013/DESSERTS </p>
-        <p id="print">  <img src="picture/print-icon.png">   print </p>
+        <p id=para1>Chocolate Pizza </p>
+        <p id=para2>POSTED ON 15 DEC 2013/DESSERTS </p>
+        <p id="print"> <img src="picture/print-icon.png"> print </p>
         <br>
         <br>
-        
+
         <br>
-    
+
         <img src="picture/choco-pizza.png" alt="background" class="backg">
 
-        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
+        <p class="p1">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to
+            dissolve. Halve
             all of the
             figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until
             you have
             a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
 
-        <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
+        <p class="p1">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is
+            completely
             dissolved
             and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the
             fig
             mixture is cooled.
         </p>
 
-        <p>
+        <p class="p1">
             Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
             instructions, i.e.,
             let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to
@@ -74,75 +92,73 @@
             serving.
         </p>
 
-        <form>
-            <fieldset>
-                <input type="checkbox" name="check" id="check1">
-                <label for="check1">
-                    1 1/2 cups milk
-                </label>
-                <input type="checkbox" name="check" id="check2">
-                <label for="check2">
-                    1 1/2 cups heavy cream
-                </label>
+        <div id="fieldset">
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check1" id="check1">
+                        1 1/2 Cups Cilk
+                    </td>
 
-                <br>
+                    <td>
+                        <input type="checkbox" name="check2" id="check2">
+                        1 1/2 Cups Heavy Cream
+                    </td>
+                </tr>
+                <tr>
+                    <td>
 
-                <input type="checkbox" name="check" id="check3">
-                <label for="check3">
-                    1/2 cup mascarpone
-                </label>
-                <input type="checkbox" name="check" id="check4" checked>
-                <label for="check4" class="anything">
-                    4/3 granulated sugar
-                </label>
+                        <input type="checkbox" name="check3" id="check3">
+                        1/2 Cup Mascarpone
+                    </td>
 
-                <br>
+                    <td class="anything">
+                        <input type="checkbox" name="check" id="check4" checked>
+                        1/3 Granulated sugar
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check" id="check5">
+                        1/2 TSP Pink Salt
+                    </td>
 
-                <input type="checkbox" name="check" id="check5">
-                <label for="check5">
-                    1/2 tsp pink salt
-                </label>
-                <input type="checkbox" name="check" id="check6" checked>
-                <label for="check6" class="anything">
-                    2 egg yolk
-                </label>
-
-                <br>
-
-                <input type="checkbox" name="check" id="check7">
-                <label for="check7">
-                    1 lb Black Mission salt
-                </label>
-                <input type="checkbox" name="check" id="check8">
-                <label for="check8">
-                    1 lemon, juiced
-                </label>
-
-                <br>
-
-                <input type="checkbox" name="check" id="check9">
-                <label for="check9">
-                    1/2 cup brown sugar
-                </label>
-                <input type="checkbox" name="check" id="check10">
-                <label for="check10">
-                    2 tbsp butter
-                </label>
-
-                <br>
-
-                <input type="checkbox" name="check" id="check11">
-                <label for="check11">
-                    2-4 tbsp water
-                </label>
-                <input type="checkbox" name="check" id="check12">
-                <label for="check12">
-                    1 cup honey roasted pecans, roughly
-                    chopped
-                </label>
-            </fieldset>
-        </form>
-
+                    <td class="anything">
+                        <input type="checkbox" name="check" id="check6" checked>
+                        2 Egg yolk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check" id="check7">
+                        1 lb Black Mission salt
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check8">
+                        1 lemon, Juiced
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="check" id="check9">
+                        1/2 Cup Brown Sugar
+                    </td>
+                    <td>
+                        <input type="checkbox" name="check" id="check10">
+                        2 TBSP butter
+                    </td>
+                </tr>
+                <td>
+                    <input type="checkbox" name="check" id="check11">
+                    2-4 TBSP water
+                </td>
+                <td>
+                    <input type="checkbox" name="check" id="check12">
+                    1 Cup Honey Roasted Pecans, Roughly
+                    Chopped
+                </td>
+            </table>
+        </div>
         <hr>
         </hr>
         <img src="picture/van-pic.png" id="image">

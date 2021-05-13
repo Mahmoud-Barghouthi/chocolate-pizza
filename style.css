@@ -33,20 +33,24 @@ header {
     float: right;
     margin-bottom: 20px;
     margin-top: -45px;
-
 }
 
 .backg {
-    width: 70%;
+    width: 55%;
     clear: both;
+    padding-left: 306px;
+    padding-right: 200px;
 }
 
 .anything { 
-    text-decoration: line-through;
+text-decoration: line-through;
 }
 
-fieldset {
+#fieldset {
     background-image: url('picture/list-bg.png');
+    background-size: 10%;
+    display: flex;
+    justify-content: center;
     width: auto;
     height: 160px;
 }
@@ -65,13 +69,31 @@ hr {
     margin-right: 8px;
 }
 
+#para1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+#para2 {
+    font-size: 11px;
+    margin-top: -36px;
+}
 .p3 { 
     margin: 0%;
+    text-indent: 50px;
 }
 
 .p3:last-child{
     font-family: 'Itim', cursive;
     font-size: 10px;
+    text-indent: 50px;
+
+}
+
+.p1 {
+    text-indent: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 button {
     float: right;
@@ -94,6 +116,12 @@ footer {
     color: rgba(128, 128, 128, 0.37);
 }
 
-.line {
-    height: 1px;
+footer img {
+    position: relative;
+    top: -20px;
+}
+.line {    
+    height: 0px;
+    background-image: none;
+    border: 1px solid gray;
 }
